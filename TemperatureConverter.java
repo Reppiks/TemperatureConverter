@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TemperatureConverter {
+class TemperatureConverter {
 
   
     public static void main(String[] args) {
@@ -10,7 +10,6 @@ public class TemperatureConverter {
         System.out.print("Enter 1 to convert a Fehrenheit temperature. Enter 2 to convert a Celsius temperature: ");
         
         double t = input.nextInt();
-        double n = 0;
         double start = 0.0;
         double converted = 0;
         
@@ -33,3 +32,4 @@ public class TemperatureConverter {
     }
     
 }
+
