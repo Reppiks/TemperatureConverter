@@ -6,7 +6,6 @@ public class TemperatureConverterSwitch {
         
         Scanner input = new Scanner(System.in);
         
-       
         System.out.print("Enter 1 to convert a Fehrenheit temperature. Enter 2 to convert a Celsius temperature: ");
         
         int selection = input.nextInt();
